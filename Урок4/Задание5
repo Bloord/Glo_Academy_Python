@@ -1,0 +1,5 @@
+sec = int(input())
+hours = sec // 3600
+minutes = (sec - hours *3600 ) // 60
+sec2 = sec % 60
+print(sec,"секунд - это", hours,'час', minutes,'мин', sec2,'сек')
