@@ -1,0 +1,5 @@
+r = int(input())
+k = float(input())
+n = int(input())
+stoim = (r + k) * n
+print(stoim)
