@@ -1,6 +1,8 @@
 r = int(input())
 k = int(input())
 n = int(input())
-stoim_r = r * n
-stoim_k = k * n
-print("За", str(n), "мячей нужно заплатить", str(stoim_r), "рублей и", str(stoim_k), "копеек")
+price = (100 * r) + k
+total = price * n
+rub = total // 100
+kop = total % 100
+print("За", str(r), "мячей нужно заплатить", str(rub), "рублей и", str(kop), "копеек")
