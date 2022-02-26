@@ -1,1 +1,7 @@
-
+num1 = int(input())
+num2 = int(input())
+ymn = num2 * num1
+del1 = float(num1 / num2)
+del2 = num1 % num2
+stp = num1 ** num2
+print(ymn,del1,del2,stp)
