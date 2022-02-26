@@ -1,5 +1,6 @@
 r = int(input())
-k = float(input())
+k = int(input())
 n = int(input())
-stoim = (r + k) * n
-print(stoim)
+stoim_r = r * n
+stoim_k = k * n
+print("За", str(n), "мячей нужно заплатить", str(stoim_r), "рублей и", str(stoim_k), "копеек")
