@@ -1,0 +1,4 @@
+name = input('Как вас зовут?')
+surname = input("Как ваша фамилия?")
+patronymic = input("Как ваше отчетсво")
+print(surname,name,patronymic)
