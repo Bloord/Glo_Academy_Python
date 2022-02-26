@@ -1,0 +1,4 @@
+num1 = int(input())
+num2 = int(input())
+rez = num1**2 + num2**2
+print(rez)
