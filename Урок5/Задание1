@@ -1,0 +1,6 @@
+pas = input()
+pas2 = input()
+if pas == pas2:
+    print("Всё окей!")
+else:
+    print('Пароли не совпадают!')
