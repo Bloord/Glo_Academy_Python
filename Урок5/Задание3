@@ -1,0 +1,11 @@
+Number_b = int(input())
+num1 = Number_b // 100000
+num2 = Number_b // 10000 % 10
+num3 = Number_b // 1000 % 10
+num4 = Number_b // 100 % 10
+num5 = Number_b // 10 % 10
+num6 = Number_b % 10
+if num1 + num2 + num3 == num4 + num5 + num6:
+    print("Билет", Number_b, 'счастливый')
+else:
+    print("Билет", Number_b, 'НЕсчастливый')
