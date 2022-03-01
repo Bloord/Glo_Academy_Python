@@ -1,5 +1,5 @@
 email = input()
 if '@' and '.' in email:
-print('Корректный')
+  print('Корректный')
 else:
-print('Некорректный')
+  print('Некорректный')
