@@ -1,0 +1,2 @@
+com_name = input()
+print(com_name*5)
