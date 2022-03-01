@@ -1,0 +1,15 @@
+number_k = int(input('Введите номер кармана от 0 до 36:'))
+k = ("Красный")
+b = ("Черный")
+if number_k > 36:
+    print('Ошибка')
+elif number_k == 0:
+    print("Зеленый")
+elif (number_k <= 10 or (number_k >= 19 and number_k <= 28)) and number_k % 2 == 1:
+    print(k)
+elif (number_k <= 10 or (number_k >= 19 and number_k <= 28)):
+    print(b)
+elif ((number_k >= 11 and number_k <= 28) or number_k>=29 and number_k<=36) and number_k % 2 == 1:
+    print(b)
+else:
+    print(k)
