@@ -1,4 +1,6 @@
 n =int(input())
+total = 0
 for i in range(n+1):
     if i%10 in [1,3,7]:
-      print(sum(i))
+     total +=i
+print(total)
