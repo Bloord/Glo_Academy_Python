@@ -1,0 +1,10 @@
+number = int(input())
+count_p = 0
+count_o = 0
+while number != 0:
+    if number > 0:
+       count_p += 1
+    elif number < 0:
+        count_o +=1
+    number = int(input())
+print(count_p*count_o)
