@@ -1,0 +1,12 @@
+a = b= int(input())
+count = 0
+while a > 0:
+    last_a = a % 10
+    count += last_a
+    a = a // 10
+
+
+if b % count == 0:
+    print("Yes")
+else:
+    print("No")
