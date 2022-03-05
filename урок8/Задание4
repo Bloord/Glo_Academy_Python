@@ -10,6 +10,5 @@ if n >= 10:
         n = n // 10
         if last_n < minimum:
             minimum = last_n
-
-
+            
 print("Максимальная цифра равна " + str( maximum),"Минимальная цифра равна " + str(minimum), sep="\n")
