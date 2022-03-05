@@ -1,0 +1,9 @@
+number = int(input())
+sym = 0
+number_k = 0
+while number != 0:
+    sym += number
+    number_k += 1
+    number = int(input())
+sr_a =sym//number_k
+print(sr_a)
