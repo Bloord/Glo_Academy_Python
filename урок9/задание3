@@ -1,0 +1,13 @@
+a = int(input())
+flag = 0
+while a > 0:
+    last_a = a % 10
+    if last_a == 1:
+        flag = 1
+    a = a // 10
+    continue
+
+if flag == 1:
+    print('Yes')
+else:
+    print("No")
