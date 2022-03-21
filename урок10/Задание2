@@ -1,0 +1,5 @@
+x = input()
+if ord(x)>=49 and ord(x)<=57:
+    print("Yes")
+else:
+    print("No")
